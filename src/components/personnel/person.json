@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_personnel_people",
+  "info": {
+    "displayName": "person"
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

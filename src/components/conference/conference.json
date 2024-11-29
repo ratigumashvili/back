@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_conference_conferences",
+  "info": {
+    "displayName": "conference",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "urlTitle": {
+      "type": "string"
+    },
+    "dates": {
+      "type": "string"
+    }
+  }
+}

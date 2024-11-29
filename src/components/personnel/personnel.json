@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_personnel_personnel",
+  "info": {
+    "displayName": "Employee",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blockTitle": {
+      "type": "string"
+    },
+    "person": {
+      "displayName": "person",
+      "type": "component",
+      "repeatable": true,
+      "component": "personnel.person"
+    }
+  }
+}

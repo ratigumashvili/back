@@ -38,12 +38,27 @@ export interface PersonnelPersonnel extends Struct.ComponentSchema {
   };
 }
 
+export interface SeoSeo extends Struct.ComponentSchema {
+  collectionName: 'components_seo_seos';
+  info: {
+    description: '';
+    displayName: 'seo';
+  };
+  attributes: {
+    metaDescription: Schema.Attribute.Text;
+    metaImage: Schema.Attribute.Media<'images'>;
+    metaKeywords: Schema.Attribute.String;
+    metaTitle: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'conference.conference': ConferenceConference;
       'personnel.person': PersonnelPerson;
       'personnel.personnel': PersonnelPersonnel;
+      'seo.seo': SeoSeo;
     }
   }
 }

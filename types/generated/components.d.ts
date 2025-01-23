@@ -9,6 +9,7 @@ export interface ConferenceConference extends Struct.ComponentSchema {
   attributes: {
     banner: Schema.Attribute.Media<'images'>;
     dates: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
     url: Schema.Attribute.String;
     urlTitle: Schema.Attribute.String;

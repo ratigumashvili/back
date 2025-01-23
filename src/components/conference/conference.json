@@ -25,6 +25,9 @@
     },
     "dates": {
       "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
